@@ -1,0 +1,197 @@
+body {
+	margin: 0;
+	height: 100vh;
+}
+main {
+	padding-bottom: 170px;
+	overflow: hidden;
+	color: white;
+}
+main,.main_div,.bg-image-overlay {
+	min-height: 100vh;
+}
+.main_div {
+	display: cover;
+	background-position: center;
+	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+}
+.bg-image-overlay {
+	width: 100%;
+	background-color: rgba(12,12,12,0.6);
+	position: relative;
+}
+
+/*index*/
+.main_text {
+	text-align: right;
+	font-size: 2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-top: 150px;
+	padding-left: 100px;
+	min-height: 520px;
+	overflow: hidden; 
+
+}
+.main_text3 {
+	text-align: right;
+	font-size: 2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	overflow: hidden;
+	margin: 100px 0;
+}
+.row_labradorite {
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+}
+.labradorite {
+	height: 395px;
+	width: 280px;
+	background:rgba(255,255,255, 0.5);
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+	overflow: hidden;
+	padding: 10px;
+	transition: 400ms ease-in-out;
+}
+.labradorite:hover {
+	background:rgba(255,255,255, 0.9);
+}
+.labradorite img {
+	width: 260px;
+	height: 180px;
+}
+.labro_name {
+	overflow: hidden;
+	text-align: center;
+	color: black;
+	font-size: 1.5em;
+	font-family: 'Lobster', cursive;
+	margin: 10px 0;
+}
+.labro_describe {
+	overflow: hidden;
+	color: black;
+	padding: 0 5px 0 10px;
+	font-family: 'Exo 2', cursive;
+}
+.order_list {
+	overflow: hidden;
+	padding: 0 50px;
+}
+.products_name {
+	margin-bottom: 30px;
+	font-family: 'Exo 2', cursive;
+}
+/*Stone_types*/
+.order_list li {
+	list-style-type: none;
+	font-size: 1.3em;
+}
+.order_list li i {
+	margin-right: 10px ;
+}
+.type_img, .fin_obj {
+	width: 135px;
+	overflow: hidden;
+	text-align: center;
+	font-family: 'Exo 2', cursive;
+	font-size: 1.1em;
+	margin: 0px 25px;
+}
+.type_img {
+	height: 220px;
+}
+.fin_obj {
+	height: 190px;
+}
+.type_img img  {
+	width: 130px;
+	height: 130px; 
+	border: 1px solid black;
+}
+.fin_obj {
+	width: 210px;
+	height: 300px;
+	margin: 0 35px;
+}
+.fin_obj img {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 5px; 
+	border: 1px solid black;
+}
+
+.top {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	background-color: white;
+	border-radius: 50px;
+	opacity: 0.9;
+	color: black;
+	text-align: center;
+	line-height: 230%;
+	z-index: 2;
+	transition: transform linear 300ms;
+	transform: translateX(100px);
+
+}
+
+/*About_us_page*/
+.main_info,.main_services {
+	padding: 0 180px;
+}
+#carouselExampleIndicators {
+	width: 1200px;
+	height: 500px;
+	overflow: hidden;
+	margin-top: 20px;"
+}
+.main_info h1,.con_title h1,.main_types h1,.main_objects h1, .main_services h1, .main_products h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: darkred;
+}
+/*Contacts_Page*/
+.main_contact {
+	padding: 0 200px;
+	min-height: 610px;
+	position: relative;
+}
+.con-info h1 {
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 1.5em;
+}
+.con_info {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+.con_gmails a {
+	text-decoration: none;
+	color: white;
+}
+.con_gmails a:hover {
+	text-decoration: none;
+	color: white;
+}
+.map {
+	margin-top: 150px;
+}
+
+.main_services h2 {
+	font-size: 1.4em;
+}
+.main_products h2 {
+	margin-top: 30px;
+}
+}

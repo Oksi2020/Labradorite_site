@@ -1,0 +1,47 @@
+@media (max-width: 470px)
+{
+main {
+	padding-bottom: 610px;
+}
+.logo a {
+	font-size: 4em;
+}
+.menu_items {
+	display: none;
+}
+
+
+/*index*/
+
+.labradorite {
+	height: 497px;
+	width: 280px;
+	margin: 0 17%;
+	margin-bottom: 30px;
+}
+.main_info p {
+	font-size: 1.5em;
+	text-align: center;
+}
+#carouselExampleIndicators {
+	height: 300px;
+}
+.main_info h1,
+.main_contact h1,
+.con_title h1,
+.main_objects h1, 
+.main_services h1, 
+.main_products h1 {
+	text-align: center;
+	font-size: 3.7em;
+}
+/*Contacts_Page*/
+
+.main_services h2 {
+	font-size: 1.4em;
+}
+.main_products h2 {
+	margin-top: 30px;
+}
+
+}

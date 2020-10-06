@@ -1,0 +1,64 @@
+.down-menu {
+	width: 100%;
+	position: absolute;
+	/*background-color: rgba(0,0,0,0.95);*/
+	background-image: url('../images/phoneForDownMenu.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	left: 0;
+	top: 0;
+	font-family: 'Exo 2';
+	transform: translateY(-550px);
+	text-align: center;
+	transition: transform linear 300ms;
+	/*z-index: -1;*/
+	font-size: 1.1em;
+}
+.backgroundForDownMenu {
+	padding: 170px 0;
+	background-color: rgba(0,0,0,.5);
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+}
+.menu_for_phone {
+	display: none;
+	padding-top: 37px;
+	color: white;
+	z-index:999;
+}
+.down-menu.hidden {
+	transform: translateY(0px);
+	height: 100vh;
+	overflow: hidden;
+	position: fixed;
+}
+
+@media (max-width: 873px)
+{
+.menu_items {
+	display: none;
+}
+.menu_for_phone {
+	display: block;
+}
+
+.down-menu a {
+	text-decoration: none!important;
+	color: white;
+	font-size: 1.3em;
+	margin: auto 0;
+	opacity: 0;
+	transition: transform linear 1000ms;
+}
+.down-menu a.showLink {
+	opacity: 1;
+}
+.menu_row {
+	margin: 0;
+	position: relative;
+	padding:0 10px;
+}
+}

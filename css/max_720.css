@@ -1,0 +1,89 @@
+@media(max-width: 720px)
+{
+.carusel {
+	display: none;
+}
+.main_info,.main_services {
+	padding: 0 30px;
+}
+.main_text {
+	min-height: 0px;
+	text-align: center;
+	font-size: 1.7em;
+	padding-left: 10px;
+	padding: 7px;
+}
+.main_text3 {
+	text-align: center;
+	font-size: 1.7em;
+	padding-left: 10px;
+	margin: 20px 0;
+}
+.row_labradorite {
+	padding-top: 20px;
+}
+.labradorite {
+	height: 407px;
+	width: 280px;
+	margin: 0 7%;
+	margin-bottom: 30px;
+}
+.labradorite img {
+	width: 100%;
+	height: 180px;
+}
+.labro_name {
+	overflow: hidden;
+	text-align: center;
+	color: black;
+	font-size: 1.5em;
+	font-family: 'Lobster', cursive;
+	margin: 10px 0;
+}
+.labro_describe {
+	font-size: 1.2em
+}
+.order_list {
+	overflow: hidden;
+	padding: 0 5px;
+}
+/*Stone_types*/
+.order_list li {
+	font-size: 1.3em;
+}
+.order_list li i {
+	margin-right: 10px ;
+}
+.type_img, 
+.fin_obj {
+	margin: auto;
+	width: 150px;
+	font-size: 1.2em;
+	height: 240px;
+}
+.type_img img {
+	width: 150px;
+	height: 150px; 
+}
+.fin_obj {
+	width: 260px;
+	height: 320px;
+	margin: auto;
+}
+.fin_obj img {
+	width: 230px;
+	height: 230px;
+	margin-bottom: 5px; 
+	border: 1px solid black;
+}
+.top {
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 500%;
+	z-index: 2;
+}
+.top i {
+	font-size: 2em;
+}
+}

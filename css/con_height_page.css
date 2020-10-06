@@ -1,0 +1,10 @@
+@media (max-width: 470px)
+{
+.con_info {
+	flex-direction: column;
+	margin-left: 20px;
+}
+.map {
+	margin:50px 0;
+}
+}
